@@ -11,5 +11,5 @@ xmesh = linspace(0,L);
 tspan = linspace(0,time);
 
 %tutaj secant
-%sol = pdepe(m,@pdefun,@icfun,@bcfun,xmesh
+%sol = pdepe(m,@pdefun,@icfun,@bcfun,xmesh,tspan)
 
